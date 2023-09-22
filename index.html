@@ -1,0 +1,34 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JumpWorld Odyssey</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/spriteStandRight.png" type="image/x-icon"/>
+    </head>
+<body>
+    <audio id="backgroundSound" src="./sond effect/background.mp3"></audio>
+    <audio id="losing" src="./sond effect/losing.mp3"></audio>
+    <audio id="winnig" src="./sond effect/winning.mp3"></audio>
+    
+
+    <section class="homeScreen">
+        <div class="image"><img src="./img/spriteStandRight.png" ></div>
+    <div class="startsection">
+        <h1>JumpWorld Odyssey</h1>
+        <input type="submit" id="playButton" value="start">
+        <ul style="list-style: none;">
+            <li>jump: spacebare or w</li>
+            <li>right: D</li>
+            <li>left: A</li>
+        </ul></div>
+    </section>
+    <div id="result">
+        <h1 id="h1result"></h1>
+        <button onclick="init()">replay</button>
+    </div>
+<canvas></canvas>
+<script  src="index.js" ></script>
+</body>
+</html>
